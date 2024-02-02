@@ -10,8 +10,9 @@ This script is a simple network scanner written in Python using Scapy library. I
 * Navigate to the directory containing the script.
 * Run the script using Python
 # Syntax
-> python network_scanner.py --target [target_ip]
-* Replace target_ip with the ip that you want to scan
+> python network_scanner.py --target [target_network]
+# Options
+* --target : specify the target network to scan
 # Example
 > python network_scanner.py --target 192.0.0.1/24
                    
