@@ -8,7 +8,7 @@ def get_aruguments(): #Function to parse command-line arguments.
     if options.ip:
         return options
     else:
-        parser.error("please specify a IP to scan in the format of --target {ip}")
+        parser.error("please specify the target network to scan")
 
 def scanner(ip):
     arp_request=scapy.ARP(pdst=ip)  #Creating ARP request packet
